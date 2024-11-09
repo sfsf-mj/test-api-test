@@ -46,5 +46,5 @@ def upload_image():
     else:
         return jsonify({'message': 'ملف غير مدعوم'}), 400
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # app.run(host='0.0.0.0', port=5000, debug=True)
